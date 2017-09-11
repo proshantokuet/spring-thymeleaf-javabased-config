@@ -22,7 +22,6 @@ public class HomeController {
 	@RequestMapping("/home")
 	public String showHome(Model model) {
 		
-		System.err.println("some thing");
 		model.addAttribute("name", "Tom");
 		model.addAttribute("formatted", "<b>blue</b>");
 		return "home";
@@ -31,9 +30,7 @@ public class HomeController {
 	@RequestMapping("/")
 	public String showview(Model model) {
 		person.setName("Partho prothim");
-		System.err.println(person.getName());
 		
-		System.err.println("some thing");
 		model.addAttribute("name", "Tom");
 		model.addAttribute("formatted", "<b>blue</b>");
 		
