@@ -19,7 +19,7 @@ public class HomeController {
 	@Autowired
 	private Person person;
 	
-	@RequestMapping("/home")
+	@RequestMapping("/example")
 	public String showHome(Model model) {
 		
 		model.addAttribute("name", "Tom");
@@ -34,6 +34,6 @@ public class HomeController {
 		model.addAttribute("name", "Tom");
 		model.addAttribute("formatted", "<b>blue</b>");
 		
-		return "home";
+		return "index";
 	}
 }
