@@ -14,9 +14,10 @@ Steps
 - Create Config Class as like com.proshanto.spring.config.MvcConfig;
 - Add nameSpace to the html file as like <html xmlns:th="http://www.thymeleaf.org">
 
-Requirement :
-1. Java 7 or hihger
-2. tomcat 7 or higher (servlet 3 baser server)
+Requirement 
+====================================
+- Java 7 or hihger
+- tomcat 7 or higher (servlet 3 baser server)
 
 Building the project
 --------------------
